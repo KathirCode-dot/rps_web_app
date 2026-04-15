@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import LoginPage from './pages/LoginPage'
 import AdminPage from './pages/AdminPage'
 import AssignerPanelPage from './pages/AssignerPanelPage'
@@ -6,7 +6,7 @@ import UserPanelPage from './pages/UserPanelPage'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div style={{ width: '100vw', height: '100vh' }}>
         <Routes>
           <Route path="/" element={<LoginPage />} />
@@ -16,6 +16,6 @@ export default function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
