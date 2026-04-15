@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "name": "cabinets",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "C-001",
+        "name": "Cabinet 1",
+        "assetType": "cabinet",
+        "cabinetNumber": "CAB-301",
+        "capacity": "24-way",
+        "status": "Operational",
+        "fedFrom": "MH-001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0440, 14.6762]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "C-002",
+        "name": "Cabinet 2",
+        "assetType": "cabinet",
+        "cabinetNumber": "CAB-302",
+        "capacity": "48-way",
+        "status": "Operational",
+        "fedFrom": "MH-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0465, 14.6780]
+      }
+    }
+  ]
+}

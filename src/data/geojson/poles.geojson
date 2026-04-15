@@ -1,0 +1,106 @@
+{
+  "type": "FeatureCollection",
+  "name": "poles",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-001",
+        "asset_id": "PL-00235",
+        "feature_type": "Pole",
+        "status": "Active",
+        "owner": "Metro Utility",
+        "material": "Steel",
+        "height_m": 12.1,
+        "municipality": "Quezon City",
+        "design_id": "DSN-1049",
+        "connected_transformer": "T-001",
+        "connected_cabinet": "C-001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0437, 14.6760]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-002",
+        "asset_id": "PL-00236",
+        "feature_type": "Pole",
+        "status": "Active",
+        "owner": "Metro Utility",
+        "material": "Concrete",
+        "height_m": 11.4,
+        "municipality": "Quezon City",
+        "design_id": "DSN-1050",
+        "connected_transformer": "T-001",
+        "connected_cabinet": "C-001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0445, 14.6765]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-003",
+        "asset_id": "PL-00237",
+        "feature_type": "Pole",
+        "status": "Proposed",
+        "owner": "Metro Utility",
+        "material": "Steel",
+        "height_m": 10.8,
+        "municipality": "Quezon City",
+        "design_id": "DSN-1051",
+        "connected_transformer": "T-001",
+        "connected_cabinet": "C-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0454, 14.6771]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-004",
+        "asset_id": "PL-00238",
+        "feature_type": "Pole",
+        "status": "Inactive",
+        "owner": "Metro Utility",
+        "material": "Concrete",
+        "height_m": 9.9,
+        "municipality": "Quezon City",
+        "design_id": "DSN-1052",
+        "connected_transformer": "T-002",
+        "connected_cabinet": "C-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0462, 14.6778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P-005",
+        "asset_id": "PL-00239",
+        "feature_type": "Pole",
+        "status": "Active",
+        "owner": "Metro Utility",
+        "material": "Steel",
+        "height_m": 12.6,
+        "municipality": "Quezon City",
+        "design_id": "DSN-1053",
+        "connected_transformer": "T-002",
+        "connected_cabinet": "C-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0470, 14.6784]
+      }
+    }
+  ]
+}

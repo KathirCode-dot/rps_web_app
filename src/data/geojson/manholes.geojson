@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "name": "manholes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MH-001",
+        "name": "Manhole 1",
+        "assetType": "manhole",
+        "manholeNumber": "MH-A101",
+        "depth_m": 1.8,
+        "status": "Good"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0430, 14.6755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MH-002",
+        "name": "Manhole 2",
+        "assetType": "manhole",
+        "manholeNumber": "MH-A102",
+        "depth_m": 2.1,
+        "status": "Good"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0458, 14.6775]
+      }
+    }
+  ]
+}

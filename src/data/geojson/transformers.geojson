@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "name": "transformers",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "T-001",
+        "name": "Transformer 1",
+        "assetType": "power_transformer",
+        "transformerNumber": "TR-501",
+        "rating_kva": 250,
+        "phase": "3-Phase",
+        "status": "Running"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0443, 14.6764]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "T-002",
+        "name": "Transformer 2",
+        "assetType": "power_transformer",
+        "transformerNumber": "TR-502",
+        "rating_kva": 400,
+        "phase": "3-Phase",
+        "status": "Running"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.0467, 14.6781]
+      }
+    }
+  ]
+}

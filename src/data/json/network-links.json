@@ -1,0 +1,71 @@
+{
+  "projectId": "PRJ-001",
+  "projectName": "Sample Utility Network",
+  "areaId": "AREA-001",
+  "connections": [
+    {
+      "id": "LNK-001",
+      "fromType": "manhole",
+      "fromId": "MH-001",
+      "toType": "cabinet",
+      "toId": "C-001",
+      "viaCableId": "CBL-001"
+    },
+    {
+      "id": "LNK-002",
+      "fromType": "cabinet",
+      "fromId": "C-001",
+      "toType": "pole",
+      "toId": "P-002",
+      "viaCableId": "CBL-002"
+    },
+    {
+      "id": "LNK-003",
+      "fromType": "pole",
+      "fromId": "P-002",
+      "toType": "pole",
+      "toId": "P-003",
+      "viaCableId": "CBL-003"
+    },
+    {
+      "id": "LNK-004",
+      "fromType": "pole",
+      "fromId": "P-003",
+      "toType": "pole",
+      "toId": "P-004",
+      "viaCableId": "CBL-004"
+    },
+    {
+      "id": "LNK-005",
+      "fromType": "manhole",
+      "fromId": "MH-002",
+      "toType": "cabinet",
+      "toId": "C-002",
+      "viaCableId": "CBL-005"
+    },
+    {
+      "id": "LNK-006",
+      "fromType": "transformer",
+      "fromId": "T-001",
+      "toType": "pole",
+      "toId": "P-001",
+      "viaCableId": null
+    },
+    {
+      "id": "LNK-007",
+      "fromType": "transformer",
+      "fromId": "T-001",
+      "toType": "pole",
+      "toId": "P-002",
+      "viaCableId": null
+    },
+    {
+      "id": "LNK-008",
+      "fromType": "transformer",
+      "fromId": "T-002",
+      "toType": "pole",
+      "toId": "P-004",
+      "viaCableId": null
+    }
+  ]
+}

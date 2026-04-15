@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "project_area",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AREA-001",
+        "name": "Sample Utility Project Area",
+        "status": "Active"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.0420, 14.6748],
+            [121.0485, 14.6748],
+            [121.0485, 14.6795],
+            [121.0420, 14.6795],
+            [121.0420, 14.6748]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "type": "FeatureCollection",
+  "name": "cables",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CBL-001",
+        "name": "Cable 1",
+        "assetType": "cable",
+        "cableType": "Underground LT",
+        "length_m": 180,
+        "status": "Active",
+        "from": "MH-001",
+        "to": "C-001"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.0430, 14.6755],
+          [121.0435, 14.6758],
+          [121.0440, 14.6762]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CBL-002",
+        "name": "Cable 2",
+        "assetType": "cable",
+        "cableType": "Overhead HT",
+        "length_m": 220,
+        "status": "Active",
+        "from": "C-001",
+        "to": "P-002"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.0440, 14.6762],
+          [121.0442, 14.6763],
+          [121.0445, 14.6765]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CBL-003",
+        "name": "Cable 3",
+        "assetType": "cable",
+        "cableType": "Overhead LT",
+        "length_m": 170,
+        "status": "Active",
+        "from": "P-002",
+        "to": "P-003"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.0445, 14.6765],
+          [121.0449, 14.6768],
+          [121.0454, 14.6771]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CBL-004",
+        "name": "Cable 4",
+        "assetType": "cable",
+        "cableType": "Overhead LT",
+        "length_m": 140,
+        "status": "Active",
+        "from": "P-003",
+        "to": "P-004"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.0454, 14.6771],
+          [121.0458, 14.6774],
+          [121.0462, 14.6778]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CBL-005",
+        "name": "Cable 5",
+        "assetType": "cable",
+        "cableType": "Underground LT",
+        "length_m": 160,
+        "status": "Active",
+        "from": "MH-002",
+        "to": "C-002"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.0458, 14.6775],
+          [121.0461, 14.6777],
+          [121.0465, 14.6780]
+        ]
+      }
+    }
+  ]
+}
